@@ -10,7 +10,7 @@ public class HiveUdfFunctionsPlugin implements Plugin{
     {
         return ImmutableSet.<Class<?>>builder()
                 .add(MaskCardNumber.class)
-              
+              //.add(add additional custom function class)
                 .build();
     }
 
