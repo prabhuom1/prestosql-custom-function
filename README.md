@@ -6,9 +6,9 @@ Steps To add custom function to prestosql(prestosql.io)
 
 2. Jar will be cretaed in target directory(ending with .0.0.1-SNAPSHOT-jar-with-dependencies.jar)
 
-3. create a seprate directory in presto server plugin directory udf-function
+3. create a seprate directory in presto server plugin directory udf-function(presto-server-xxx/plugin/udf-function) or you can put the jar into hive-hadoop2.
 
-4.Copy the jar which get created in step 2
+4.Copy the jar which get created in step 2 in directory craeted in step 3
 
 5.restart your prestosqlserver.
 
