@@ -8,11 +8,11 @@ Steps To add custom function to prestosql(prestosql.io)
 
 3. create a seprate directory in presto server plugin directory udf-function(presto-server-xxx/plugin/udf-function) or you can put the jar into hive-hadoop2.
 
-4.Copy the jar which get created in step 2 in directory craeted in step 3
+4.Copy the jar which get created in step 2 in directory created in step 3
 
 5.restart your prestosqlserver.
 
-6.select maskcard('encryptedcardnumber','key');
+6. run the sql query "select maskcard('encryptedcardnumber','key')";
 
 7.Output 123456XXXXXX1234
 
